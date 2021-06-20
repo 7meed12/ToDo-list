@@ -1,0 +1,27 @@
+html{
+    max-width: 100vmax;
+}
+.container{
+    max-width: 400px;
+}
+input[type=text]{
+    background:rgba(0, 81, 255, 0.425);
+    border: none;
+    color: white;
+}
+.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.781);
+    opacity: 1;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+label{
+    font-size: 20px;
+}
+
+.filtered{
+    display: none !important ; 
+}
